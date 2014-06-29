@@ -21,3 +21,12 @@ The exception-tracking services reviewed are:
 | Airbrake | ★☆☆☆☆ | Search seems to be only available [via the API](https://help.airbrake.io/kb/api-2/v3-api-search-and-filter), at least for now. |
 | Honeybadger | ★★★★☆ | Support searches by exception name, message, path, tags. |
 | Rollbar | ☆☆☆☆☆ | N/A |
+
+
+### Pricing
+
+| Service | Starting At |
+----------|-------------|
+| Airbrake | $9/mo |
+| Honeybadger | $12/mo |
+| Rollbar | Free |

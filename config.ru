@@ -6,4 +6,6 @@ require "bundler"
 Bundler.require
 
 require "./app"
+
+use Bugsnag::Rack
 run App

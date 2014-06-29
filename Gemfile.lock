@@ -1,8 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bugsnag (2.1.0)
+      httparty (>= 0.6, < 1.0)
+      multi_json (~> 1.0)
     daemons (1.1.9)
     eventmachine (1.0.3)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    multi_json (1.10.1)
+    multi_xml (0.5.5)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -20,5 +29,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bugsnag
   sinatra
   thin

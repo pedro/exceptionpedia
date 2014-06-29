@@ -1,4 +1,6 @@
 class App < Sinatra::Base
+  set :raise_errors, true
+
   get "/" do
     "hello world"
   end

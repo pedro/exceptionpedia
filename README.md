@@ -3,6 +3,9 @@
 Sinatra app used to test and review different services for tracking exceptions.
 
 
-## Services available
+## Services reviewed
 
-- [Honeybadger](https://github.com/pedro/exceptionpedia/compare/honeybadger)
+### Honeybadger
+
+[Home](http://honeybadger.io/) [Heroku Add-on](http://addons.heroku.com/honeybadger) [Diff](https://github.com/pedro/exceptionpedia/compare/honeybadger)
+

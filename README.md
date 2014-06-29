@@ -1,6 +1,6 @@
 # Exceptionpedia
 
-Sinatra app used to test and review different services for tracking exceptions.
+Sinatra app used to test and review different [services for tracking exceptions](https://addons.heroku.com/#monitoring).
 
 Check the [branches](https://github.com/pedro/exceptionpedia/branches) to see what services are supported.
 

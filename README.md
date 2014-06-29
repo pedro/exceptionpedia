@@ -19,8 +19,8 @@ The exception-tracking services reviewed are:
 | Service | Score | Notes |
 ----------|-------|-------|
 | Airbrake | ★☆☆☆☆ | Search seems to be only available [via the API](https://help.airbrake.io/kb/api-2/v3-api-search-and-filter), at least for now. |
-| Honeybadger | ★★★★☆ | Support searches by exception name, message, path, tags. |
-| Rollbar | ☆☆☆☆☆ | N/A |
+| Honeybadger | ★★★★☆ | Support searches by exception name, message, path and tags. |
+| Rollbar | ★★★★☆ | Support searches by exception name, message and path. |
 
 
 ### Integrations

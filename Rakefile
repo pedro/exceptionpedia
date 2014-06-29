@@ -1,13 +1,16 @@
+desc "Open the Heroku add-on dashboard"
 task :open do
   exec "heroku addons:open #{addon} -a #{app}"
 end
 
-task :push do
-  exec "git push origin #{addon} -f && git push #{git} #{addon}:master -f"
-end
-
+desc "Create a heroku app for the add-on, push to it"
 task :setup do
   exec "heroku create #{app} && heroku addons:add #{addon} -a #{app} && rake push && rake open"
+end
+
+desc "Push to the heroku app"
+task :push do
+  exec "git push origin #{addon} -f && git push #{git} #{addon}:master -f"
 end
 
 def addon

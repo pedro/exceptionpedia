@@ -23,6 +23,15 @@ The exception-tracking services reviewed are:
 | Rollbar | ☆☆☆☆☆ | N/A |
 
 
+### Integrations
+
+| Service | Score | Notes |
+----------|-------|-------|
+| Airbrake | ★★★☆☆ | Integrations available with a few services, not that many options for most. |
+| Honeybadger | ★★★★★ | Several services available, custom integrations too: Automatically resolve GitHub issues, pick different options for your HipChat notifications, etc. Some only available on higher plans. |
+| Rollbar | ★★★★★ | Different level of integrations with a wide array of services: open and resolve PagerDuty incidents, notify of trends in Campfire, manage Trello cards, etc. |
+
+
 ### Pricing
 
 | Service | Starting At |
